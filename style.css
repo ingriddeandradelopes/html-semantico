@@ -8,6 +8,13 @@
     flex-direction: column;
     margin:0%;
     padding: 10px;
-    background-color: #282c34;
+    background-color: #222c34;
     min-height: 100vh;   
  }
+    
+  header,nav,footer{
+    background-color: #ffa500;
+    padding:20px;
+    text-align:center;
+    color:white; 
+  }
