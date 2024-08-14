@@ -18,16 +18,40 @@
     text-align:center;
     color:white; 
   }
-     cabeca{
+     .cabeca{
         font-size: 24px;
         margin-bottom: 20px;
   }
-    navegacao{
+    .navegacao{
     font-size: 20px;
     margin-bottom: 20px;
   }
-   rodape{
+   .rodape{
     font-size: 20px;
     margin-top: 20px;
-   }
-    
+  }
+    .conteudo{
+      display: flex;
+      flex: 1;
+      gap: 20px;
+  } 
+     .principal{
+      display: flex;
+      flex-direction: column;
+      flex: 2;
+      gap: 20px;  
+  }
+     .principal,.artigo{
+      background-color: #ffa500;
+      padding: 20px;
+      text-align: center;
+      font-size: 20px;
+      color:white;
+      border-radius: 5px;
+     }
+       .principal{
+        flex: 1;
+       }
+       .artigo{
+        flex: 1;
+       }
