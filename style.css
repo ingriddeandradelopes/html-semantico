@@ -51,7 +51,16 @@
      }
        .principal{
         flex: 1;
-       }
+     }
        .artigo{
         flex: 1;
-       }
+   }
+       .secas-direita{
+        background-color: #ffa500;
+        padding: 20;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+        flex: 1.5px;
+        border-radius: 5px;
+       } 
